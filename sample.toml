@@ -1,0 +1,15 @@
+aloha = true
+ll = 123
+
+[commands]
+build = "echo \"exeucte build $aloha $flags\""
+show = "fuck"
+
+[build]
+  [build.flags]
+     aloha = "value"
+     hello = "bad"
+
+[flags]
+cxx = "123"
+cgg = "456"
